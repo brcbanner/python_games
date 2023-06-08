@@ -69,7 +69,3 @@ def safe_2(N):
     return players[0]
 
 
-
-
-
-
