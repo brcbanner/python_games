@@ -43,9 +43,6 @@ def correct_word_trigrams(s):
             w = word
     return w
 
-s = 'botticlia'
-print(f"The correct word with the trigram method for {s} is: {correct_word_trigrams(s)}")
-
 '''
 Finding the most "correct" word of a wrong 
 word using the division into single letters
@@ -90,5 +87,8 @@ def correct_word_sng_lets(s):
             w = word
     return w
 
-s = 'botticlia'
+
+# TEST
+s = input('Insert word: ')
+print(f"The correct word with the trigram method for {s} is: {correct_word_trigrams(s)}")
 print(f"The correct word with the single letters method for {s} is: {correct_word_sng_lets(s)}")
