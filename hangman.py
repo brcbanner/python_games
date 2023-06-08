@@ -68,10 +68,10 @@ Guess the following word:""")
         else:
             s = ''.join(l)
             s = s.upper()
-            print (f'\nParola: {s}')
+            print (f'\nWord: {s}')
             
             # I update the string 't' with the tried letter 'z'
             t += z
         
     # in case the string ’s' is equal to the word to guess...
-    print('\n__Hai indovinato la parola!__')
+    print('\n__You have guessed the word!__')
