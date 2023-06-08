@@ -67,5 +67,3 @@ def safe_2(N):
             players.pop(0)
             alive = len(players)
     return players[0]
-
-
