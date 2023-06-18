@@ -1,6 +1,6 @@
 '''
 Josephus problem with binary numbers
-(link to the explanation of the method: https://www.youtube.com/watch?v=uCsD3ZGzMgE ('Josephus problem' by NumberPhile)
+(link to the explanation of the method: https://www.youtube.com/watch?v=uCsD3ZGzMgE ('Josephus problem' by NumberPhile))
 '''
 
 # conversion of a number N from decimal base to binary base
